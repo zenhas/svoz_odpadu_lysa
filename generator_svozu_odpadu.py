@@ -5,7 +5,7 @@ from lokace_svozu import *
 from streets import *
 
 date_start = datetime(2025, 1, 1)
-date_end = datetime(2025, 12, 31)
+date_end = datetime(2026, 1, 1)
 
 
 def main():
@@ -15,9 +15,9 @@ def main():
                                                                     lokace_svozu_bio)
     # csv soubor
     generator.generate_csv_file(
-        all_streets['Litovel'] + mistni_casti, date_start, date_end)
+        all_streets['Lysa'] + mistni_casti, date_start, date_end)
     # ics soubory
-    for location in all_streets['Litovel'] + mistni_casti:
+    for location in all_streets['Lysa'] + mistni_casti:
         generator.generate_ical_file(
             location, "calendars", date_start, date_end)
 
