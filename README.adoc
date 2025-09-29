@@ -1,6 +1,10 @@
-= link:https://svoz.litovle.cz[Svoz odpadu v Litovli i místních částech]
+= link:https://www.zhleatherworks.cz/waste_calendar/[Svoz odpadu v Lysé nad Labem a místních částech]
 
-== Proč vznikl web link:https://svoz.litovle.cz[svoz.litovle.cz]
+== Proč vznikl web link:https://www.zhleatherworks.cz/waste_calendar/[www.zhleatherworks.cz/waste_calendar/]
+* *Absence městského řešení* +
+Ve městě se rozbíhá nový systém třídění odpadu. S přibývajícími popelnicemi u rodinných domů přibývá také
+svozových dnů v kalendáři. Jelikož město nemělo vlastní řešení pro automatizované publikování kalendáře online
+adaptoval jsem již funkční https://github.com/honza-kasik/svoz_odpadu_litovel[řešení Honzy Kašíka], které vytvořil pro město Litovel.
 
 * *Rychlost kdekoliv* +
 Vše je minimalistické a velmi rychlé na jekémkoliv zařízení a připojení
@@ -20,7 +24,7 @@ Velmi jednoduchý a naivní skript pro vygenerování `ics` souborů a `csv` sou
 
 Soubor `ics` lze importovat do Google kalendáře a pravděpodobně i dalších aplikací. Kalendáře jsou ke stažení ve složce link:calendars/[`calendars`].
 
-Soubor `csv` slouží primárně jako zdroj dat pro link:index.html[index.html] dostupný z https://svoz.litovle.cz
+Soubor `csv` slouží primárně jako zdroj dat pro link:index.html[index.html] dostupný z https://www.zhleatherworks.cz/waste_calendar/
 
 == Import ics do Google kalendáře
 
@@ -34,18 +38,11 @@ https://support.google.com/calendar/answer/37118?hl=cs&co=GENIE.Platform%3DDeskt
 
 == Zdrojová data
 
-Zdrojová data se nachází v link:resources/[resources/]. Jsou to letáčky distribuované městem v PDF podobě. Součástí repozitáře jsou proto, aby byly dohledatelné případné změny.
+Zdrojová data se nachází v link:resources/[resources/]. Jsou to informace z webu nebo materiálů města Lysá nad Labem. Součástí repozitáře jsou proto, aby byly dohledatelné případné změny.
 
 === Změny svozu
 
-* 2024-12-18 https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmena-svozu-odpadu-v-dobe-vanocnich-svatku.html, archiv https://web.archive.org/web/20241218100710/https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmena-svozu-odpadu-v-dobe-vanocnich-svatku.html
-* 2024-12-30 https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmena-svozu-bioodpadu-v-mistnich-castech-z-30-12-na-2-1.html, archiv https://web.archive.org/web/20241230151257/https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmena-svozu-bioodpadu-v-mistnich-castech-z-30-12-na-2-1.html
-* 2024-12-31? Poznámka: Přidány i Unčovice po dotazu https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmena-svozu-bioodpadu-v-mistnich-castech-z-30-12-na-2-1.html, archiv https://web.archive.org/web/20241231075813/https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmena-svozu-bioodpadu-v-mistnich-castech-z-30-12-na-2-1.html
-* 2025-04-14 https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmeny-svozu-odpadu-behem-velikonoc.html, archiv https://archive.is/SpRQH
-* 2025-05-07 https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmeny-ve-svozu-odpadu-v-mesici-kvetnu.html, archiv https://archive.is/vrQhk
-* 2025-05-21 https://www.litovel.eu/cs/urad/uredni-deska/aktualni-informace/zmena-ve-svozu-odpadu.html, archiv https://archive.is/PsJVG
-* 2025-07-04 https://www.litovel.eu/redakce/index.php?xuser=234858626223493812&lanG=cs&slozka=47816&xsekce=43561&clanek=374062, archiv https://archive.is/G2KGV a https://archive.is/O5jH7
-* 2025-09-09 https://www.facebook.com/litovel.eu/posts/pfbid02af6wuEMQTm3G4xLmkpFG5b8YnTEH2Pk4wSw3oPgbBkovEmRqTb76cfzaDCDs15pFl, archiv https://web.archive.org/web/20250909192642/https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flitovel.eu%2Fposts%2Fpfbid02af6wuEMQTm3G4xLmkpFG5b8YnTEH2Pk4wSw3oPgbBkovEmRqTb76cfzaDCDs15pFl
+* 2025-09-29 úvodní verze pro Lysou nad Labem
 
 == Licence
 

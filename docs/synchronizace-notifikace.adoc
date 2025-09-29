@@ -10,7 +10,7 @@ Změny v .ics souboru nemusí být reflektovány okamžitě, synchronizace můž
 
 === Krok 1: Získání adresy .ics souboru s kalendářem
 
-Otevřete https://svoz.litovle.cz ve webovém prohlížeči.
+Otevřete https://www.zhleatherworks.cz/waste_calendar/ ve webovém prohlížeči.
 
 Pomocí políčka "Filtr lokace" zvolte lokaci, jejíž kalendář chcete synchronizovat.
 
