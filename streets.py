@@ -82,6 +82,7 @@ all_streets = {
         'Na Rybníčku',
         'Na Staré vsi',
         'Na Vlečce',
+        'Na Výsluní',
         'Na Vysoké mezi',
         'Na Zemské stezce',
         'Nerudova',
